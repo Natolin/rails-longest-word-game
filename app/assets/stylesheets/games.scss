@@ -1,0 +1,28 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.new_game{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  p{
+    background-color: rgb(210, 51, 51);
+    color: white;
+    padding: 5px;
+  }
+}
+
+.results{
+  border-left: 2px solid red;
+  padding-left: 10px;
+  a{
+    text-decoration: none;
+    color: #1ABC9C;
+  }
+}
+
+.submitting_a_word {
+  border-left: 2px solid red;
+  padding-left: 10px;
+}
